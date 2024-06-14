@@ -1,0 +1,76 @@
+h1 {
+    font-family: "Rock Salt", cursive;
+    text-align: center;
+}
+/* spacing */
+
+table {
+    table-layout: flex;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  thead th:nth-child(1) {
+    width: 10%;
+  }
+  thead th:nth-child(2) {
+    width: 30%;
+  }
+  thead th:nth-child(3) {
+    width: 20%;
+  }
+  thead th:nth-child(4) {
+    width: 40%;
+  }
+  th,
+  td {
+    padding: 20px;
+  }
+
+  /* typography */
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+  }
+  thead th,
+  tfoot th {
+    font-family: "Rock Salt", cursive;
+  }
+  th {
+    letter-spacing: 2px;
+  }
+  td {
+    letter-spacing: 1px;
+  }
+  tbody td {
+    text-align: center;
+  }
+  tfoot th {
+    text-align: right;
+  }
+
+  /* graphics and colors */
+thead,
+tfoot {
+  /* #background: url(leopardskin.jpg); */
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(to bottom, rgb(0 0 0 / 10%), rgb(0 0 0 / 50%));
+  border: 3px solid rgb(62, 61, 65);
+}
+/* zebra striping */
+tbody tr:nth-child(odd) {
+    background-color: #bcbccfcb;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #d4d6dda2;
+  }
+  /* tbody tr {
+    background-image: url(noise.png);
+  } */
+  table {
+    background-color: #b3b4b4;
+  }
